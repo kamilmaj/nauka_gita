@@ -1,0 +1,64 @@
+#import os #informacje o systemie
+#print(os.getenv('HOSTNAME'))
+
+
+# def wypisz_osobe(imie, nazwisko):
+#         print("{0} {1}".format(imie, nazwisko))
+#
+# def czy_emeryt():
+#     MAX = 68
+#     if wiek < MAX:
+#         return False
+#     else:
+#         return True
+#
+# if __name__ == "__main__":
+#     imie = "Kamil"
+#     nazwisko = "Maj"
+#     wiek = 33
+#     klasa_podatkowa = 3
+#
+#
+#     wypisz_osobe(imie, nazwisko)
+#     if wiek > 32:
+#         print('mniej')
+#     elif wiek == 32:
+#         print("tylko 32")
+#     else:
+#         print("wiecej")
+
+
+
+
+#imie = 'Kamil'
+#nazwisko = "M"
+#pelne_imie = imie + " " + nazwisko
+aa98e9c01c000bc000fb01be6dd7ed65479b1eb1
+#ilosc_zwierzat_domowych = 2
+#cena = 2 * 120
+
+#print(cena)
+#print(pelne_imie)
+
+
+#if __name__ == "__main_samochody__":
+#    marka = "Ford"
+#    model = "Mondeo"
+#    litraz = 2.5
+#    print("{0} {1}".format(marka, model))
+#    if litraz < 2:
+#        print('maly silnik')
+#    else:
+#        print("duzy silnik")
+
+
+import os
+
+def get_line(home, user):
+    return "{0}, {1}".format(home, user)
+
+if __name__ == "__main__":
+    home = os.getenv('HOME')
+    user = os.getenv('USER')
+    l = get_line(home, user)
+    print(l)
